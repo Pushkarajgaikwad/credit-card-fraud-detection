@@ -87,3 +87,21 @@ The outcome is a robust fraud detection model with high recall, ensuring that a 
     * **Important:** After downloading, place the `creditcard.csv` file inside the `data/` folder in the project.
 
 3.  **Create a virtual environment
+   ```bash
+    python -m venv venv
+    venv\Scripts\activate  # On Windows
+    source venv/bin/activate # On macOS/Linux
+    pip install -r requirements.txt
+    ```
+
+4.  **Launch Jupyter Notebook:**
+    ```bash
+    jupyter notebook
+    ```
+
+5.  **Run the notebooks:**
+    * Open the `notebooks` directory.
+    * Run the notebooks in sequential order:
+        1.  `01_EDA_and_Preprocessing.ipynb`
+        2.  `02_Model_Training_and_Evaluation.ipynb`
+        3.  `03_Hyperparameter_Tuning.ipynb`
