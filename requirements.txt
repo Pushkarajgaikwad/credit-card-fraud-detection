@@ -1,0 +1,16 @@
+# Core Data Science & ML Libraries
+numpy==1.26.1
+pandas==2.1.1
+scikit-learn==1.3.2
+matplotlib==3.8.0
+seaborn==0.13.0
+
+# Imbalanced Data Handling
+imbalanced-learn==0.11.0
+
+# Gradient Boosting Model
+xgboost==2.0.0
+
+# Jupyter Environment
+jupyterlab==4.0.7
+notebook==7.0.6
